@@ -72,6 +72,27 @@
 				});
 			});
 
+		// Show the fixed header only on larger screen devices
+			var showHeaderAt = 100;
+			var win = $(window),
+					body = $('body');
+
+			if(win.width() > 100){
+
+				// When we scroll more than 150px down, we set the
+				// "fixed" class on the body element.
+				win.on('scroll', function(e){
+
+					if(win.scrollTop() > showHeaderAt) {
+						body.addClass('fixed');
+					}
+					else {
+						body.removeClass('fixed');
+					}
+				});
+
+			}
+
 		// Section transitions.
 			if (!skel.vars.mobile
 			&&	skel.canUse('transition')) {

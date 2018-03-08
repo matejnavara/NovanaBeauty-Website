@@ -68,11 +68,12 @@
 	padding: 0 5px;
 	text-decoration:none;
 	color: #2c3539;
-	opacity: 0.9;
+	opacity: 1;
 }
 
 .header-fixed .header-limiter nav a:hover{
-	opacity: 1;
+	opacity: 0.7;
+	text-decoration: underline;
 }
 
 .header-fixed .header-limiter nav a.selected {
@@ -117,8 +118,7 @@ body.fixed .header-fixed .header-limiter nav {
 @media all and (max-width: 600px) {
 
 	.header-fixed {
-		padding: 20px 0;
-		height: 75px;
+		display: none;
 	}
 
 	.header-fixed .header-limiter h1 {

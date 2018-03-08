@@ -28,11 +28,11 @@
 					
 
 					<nav>
-						<a href="#intro">| Home |</a>
-						<a href="#one">| About Me |</a>
-						<a href="#two">| Treatments |</a>
-						<a href="#work">| The Studio |</a>
-						<a href="#contact">| Contact |</a>
+						<a class="header-link" href="#intro">Home</a>&nbsp;
+						<a class="header-link" href="#one">About Me</a>&nbsp;
+						<a class="header-link" href="#two">Treatments</a>&nbsp;
+						<a class="header-link" href="#work">The Studio</a>&nbsp;
+						<a class="header-link" href="#contact">Contact</a>&nbsp;
 					</nav>
 
 				</div>
@@ -49,30 +49,30 @@
 					</header>
 					<h3>Welcome to Kingston's home of beauty.</h3>
 					<footer>
-						<a href="#one" class="button style2 down">More</a>
+						<a href="#about" class="button style2 down">More</a>
 					</footer>
 				</div>
 			</section>
 
-		<!-- One -->
-			<section id="one" class="main style2 left dark fullscreen">
+		<!-- About -->
+			<section id="about" class="main style2 left dark fullscreen">
 				<div class="content box style2">
 					<header>
 						<h2>Who I Am</h2>
 					</header>
 					<p>
 						My name is Ana Navarova and I'm the owner of Novana beauty.
-						I've been working in this industry for the past 16 years.						 
+						I've been working in this industry for 20 years.						 
 						Being a beauty therapist is a job that I love, I consider myself privileged to get to know so many people and to be part of their everyday life.
-						Beauty has been a wonderful way to appreciate how small changes in our appearance can make a big difference.
+						Beauty has been a wonderful way to appreciate how small changes in our appearance can make a big difference to our lives.
 					</p>
 					<!-- <p>Ana Navarova, It's hard to imagine that anyone will be working in this environment for that length of time without loving what they are doing .</p> -->
 				</div>
-				<a href="#two" class="button style2 down anchored">Next</a>
+				<a href="#services" class="button style2 down anchored">Next</a>
 			</section>
 		
-		<!-- Two -->
-			<section id="two" class="main style2 right dark fullscreen">
+		<!-- Services -->
+			<section id="services" class="main style2 right dark fullscreen">
 				<div class="content box style2">
 					<header>
 						<h2>What I Do</h2>
@@ -116,6 +116,7 @@
 						</div>
 
 				</div>
+				<a href="#contact" class="button style2 down anchored">Next</a>
 			</section>
 
 		<!-- Contact -->
@@ -133,7 +134,7 @@
 								<h3> Address </h3>
 								<hr>
 								<p>118 Canbury Park Road <br> Kingston Upon Thames <br> Surrey <br> KT2 6JZ </p>
-								<p> 0208 546 1319 </p>
+								<a href="tel:+442085461319"><span class="fa fa-phone"></span> 0208 546 1319</a>
 							</td>
 							
 							<td style="width: 50%">
@@ -141,7 +142,7 @@
 								<hr>
 								<p>
 									<strong>Mon:</strong> CLOSED<br />
-									<strong>Tue:</strong> 10am - 8pm<br />
+									<strong>Tue:</strong> CLOSED<br />
 									<strong>Wed:</strong> 10am - 6pm<br />
 									<strong>Thu:</strong> 10am - 8pm<br />
 									<strong>Fri:</strong> 10am - 6pm<br />
@@ -153,7 +154,7 @@
 					</table>
 					
 					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2488.453813688422!2d-0.298696083883329!3d51.41308977961984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760be91b977e15%3A0xa9ef89e1dd801f26!2sNovana+Beauty!5e0!3m2!1sen!2suk!4v1478453549416" 
-					width="600" height="450" frameborder="0" style="border:0" allowfullscreen>
+					width="100%" height="400" frameborder="0" style="border:0" allowfullscreen>
 					</iframe>
 					
 					
@@ -186,7 +187,7 @@
 
 				<!-- Menu -->
 					<ul class="menu">
-						<li>&copy; Novana Beauty 2016</li><li>Design: <a href="http://www.matejnavara.com">Matej Navara</a> X <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>&copy; Novana Beauty 2018</li><li>Created by: <a href="http://www.matejnavara.com">Matej Navara</a> X <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
 
 			</footer>
@@ -200,36 +201,6 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-	<script>
-	$(document).ready(function(){
-
-		var showHeaderAt = 100;
-
-		var win = $(window),
-				body = $('body');
-
-		// Show the fixed header only on larger screen devices
-
-		if(win.width() > 100){
-
-			// When we scroll more than 150px down, we set the
-			// "fixed" class on the body element.
-
-			win.on('scroll', function(e){
-
-				if(win.scrollTop() > showHeaderAt) {
-					body.addClass('fixed');
-				}
-				else {
-					body.removeClass('fixed');
-				}
-			});
-
-		}
-
-	});
-
-</script>
 
 	</body>
 </html>

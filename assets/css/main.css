@@ -2888,18 +2888,18 @@
 		background-repeat: repeat, no-repeat;
 	}
 
-/* One */
+/* About */
 
-	#one {
+	#about {
 		background: url("images/overlay.png"), url("../../images/one.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
 
-/* Two */
+/* Services */
 
-	#two {
+	#services {
 		background: url("images/overlay.png"), url("../../images/two.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
